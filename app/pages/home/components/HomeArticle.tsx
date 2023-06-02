@@ -9,8 +9,10 @@ const HomeArticle = () => {
     <motion.article
       initial="hidden"
       animate="visible"
-      exit={{ opacity: 0, transition: { duration: 1 } }}
-      variants={{ visible: { transition: { delayChildren: 0.2 } } }}
+      exit={{ opacity: 0, transition: { duration: 0.8 } }}
+      variants={{
+        visible: { transition: { delayChildren: 0.2 } },
+      }}
     >
       <HomeTitle />
       <HomeSubtitle />

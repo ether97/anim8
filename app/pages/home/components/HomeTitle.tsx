@@ -11,7 +11,7 @@ const HomeTitle = () => {
         hidden: { opacity: 0, x: -100 },
         visible,
       }}
-      className="text-[100px] font-bold"
+      className="text-[80px] font-bold"
     >
       Only the best artwork.
     </motion.h1>

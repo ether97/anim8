@@ -7,14 +7,16 @@ export default function Home() {
         autoPlay
         loop
         muted
-        className="absolute min-w-full min-h-full max-w-none -z-10"
+        style={{ objectFit: "cover" }}
+        className="absolute min-w-full max-h-full -z-10 
+      "
       >
         <source
           src="/videos/pexels-dan-cristian-pădureț-3024112-1920x1080-50fps.mp4"
           type="video/mp4"
         />
       </video>
-      <div className="max-w-[1500px] flex justify-end w-full">
+      <div className="max-w-[1500px] flex justify-end w-full mx-[50px]">
         <HomeArticle />
       </div>
     </div>

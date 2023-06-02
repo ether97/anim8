@@ -32,7 +32,7 @@ function Navbar() {
           duration: 0.5,
           delayChildren: 0.5,
         }}
-        className="w-full flex items-center justify-between fixed top-0  h-full  max-w-[1500px]"
+        className="w-full flex items-center justify-between fixed top-0  h-full  max-w-[1500px] md:px-[30px] lg:px-[50px] px-[20px]"
       >
         <motion.div
           variants={reveal}

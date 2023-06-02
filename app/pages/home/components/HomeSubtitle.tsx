@@ -10,12 +10,12 @@ const HomeSubtitle = () => {
   return (
     <motion.div
       variants={itemVariants}
-      className="flex items-center flex-row justify-center gap-2 animate-bounce cursor-pointer"
+      className="flex items-center flex-row justify-end gap-2 animate-bounce cursor-pointer"
       onClick={() => router.push("/pages/gallery")}
     >
       <motion.h2
         variants={itemVariants}
-        className="text-center text-[25px] text-zinc-600 "
+        className="text-center text-5 text-zinc-600 "
       >
         See for yourself
       </motion.h2>

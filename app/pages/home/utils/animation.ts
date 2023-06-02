@@ -1,7 +1,7 @@
 export const visible = {
   opacity: 1,
   x: 0,
-  transition: { duration: 0.5, delay: 1.8 },
+  transition: { duration: 0.5, delay: 1 },
 };
 
 export const itemVariants = {
